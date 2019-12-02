@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../stylesheets/style.css">
     <title>Tic Tac Toe</title>
 </head>
+
 <body>
-    <h1>Tic Tac Toe</h1>
-    <div class="game">
-        <div class="column">
-            <div class="box" data-column="0" data-row="0"></div>
-            <div class="box" data-column="0" data-row="1"></div>
-            <div class="box" data-column="0" data-row="2"></div>
+    <h1 class="logo">Tic Tac Toe</h1>
+    <div class="main">
+        <div class="game">
+            <div class="column column1">
+                <div class="box" data-column="0" data-row="0"></div>
+                <div class="box" data-column="0" data-row="1"></div>
+                <div class="box" data-column="0" data-row="2"></div>
+            </div>
+            <div class="column column2">
+                <div class="box" data-column="1" data-row="0"></div>
+                <div class="box" data-column="1" data-row="1"></div>
+                <div class="box" data-column="1" data-row="2"></div>
+            </div>
+            <div class="column column3">
+                <div class="box" data-column="2" data-row="0"></div>
+                <div class="box" data-column="2" data-row="1"></div>
+                <div class="box" data-column="2" data-row="2"></div>
+            </div>
         </div>
-        <div class="column">
-            <div class="box" data-column="1" data-row="0"></div>
-            <div class="box" data-column="1" data-row="1"></div>
-            <div class="box" data-column="1" data-row="2"></div>
-        </div>
-        <div class="column">
-            <div class="box" data-column="2" data-row="0"></div>
-            <div class="box" data-column="2" data-row="1"></div>
-            <div class="box" data-column="2" data-row="2"></div>
-        </div>
+        <div class="scores xScore">0</div>
+        <div class="scores oScore">0</div>
     </div>
     <div class="buttons">
         <h1 class="reset">Reset</h1>
         <h1 class="newGame">New Game</h1>
     </div>
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script src="../scripts/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../scripts/app.js"></script>
 </body>
+
 </html>
