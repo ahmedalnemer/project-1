@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 500px;
+    background: maroon;
+    position: relative;
+    max-width: 600px;
+}
+
+.column{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 400px;
+    background: gray;
+    margin: 10px;
+}
+
+.column div{
+    background: yellow;
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons h1{
+    margin: 20px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #444444;
+    color: #FFF;
+}
+
+img{
+    width: inherit;
+}
