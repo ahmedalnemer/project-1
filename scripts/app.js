@@ -28,6 +28,7 @@ $(function () {
             $(`.logo`).css('marginBottom', '0px')
             $(`.logo`).after(`<h2> ${letter[imageIndex].toUpperCase()} Wins </h2>`)
             winnerFound = true
+            $(`.cheering`)[0].play()
             for (let i = 0; i < 3; i++) {
                 $(`div[data-row="${row}"] img`).animate({
                     opacity: '0%'
@@ -49,6 +50,7 @@ $(function () {
             $(`.logo`).css('marginBottom', '0px')
             $(`.logo`).after(`<h2> ${letter[imageIndex].toUpperCase()} Wins </h2>`)
             winnerFound = true
+            $(`.cheering`)[0].play()
             for (let i = 0; i < 3; i++) {
                 $(`div[data-column="${column}"] img`).animate({
                     opacity: '0%'
@@ -70,6 +72,7 @@ $(function () {
                 $(`.logo`).css('marginBottom', '0px')
                 $(`.logo`).after(`<h2> ${letter[imageIndex].toUpperCase()} Wins </h2>`)
                 winnerFound = true
+                $(`.cheering`)[0].play()
                 for (let i = 0; i < 3; i++) {
                     $(`div[data-column="0"][data-row="0"] img,
                     div[data-column="1"][data-row="1"] img,
@@ -95,6 +98,7 @@ $(function () {
                 $(`.logo`).css('marginBottom', '0px')
                 $(`.logo`).after(`<h2> ${letter[imageIndex].toUpperCase()} Wins </h2>`)
                 winnerFound = true
+                $(`.cheering`)[0].play()
                 for (let i = 0; i < 3; i++) {
                     $(`div[data-column="0"][data-row="2"] img,
                     div[data-column="1"][data-row="1"] img,
@@ -120,6 +124,7 @@ $(function () {
         if (gameCount == 9 && !winnerFound) {
             $(`.logo`).css('marginBottom', '0px')
             $(`.logo`).after(`<h2> It's a Tie </h2>`)
+            $(`.booing`)[0].play()
         }
     }
 
