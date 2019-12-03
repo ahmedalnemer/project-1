@@ -12,7 +12,12 @@ body{
 .logo{
     color: white;
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 73px;
+}
+
+h2{
+    margin-bottom: 20px;
+    color: white;
 }
 
 .main{
