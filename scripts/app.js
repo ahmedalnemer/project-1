@@ -1,5 +1,5 @@
 $(function () {
-    const images = [`<img src='../images/X.png' > </  img>`, `<img src='../images/O.png' > </  img>`]
+    const images = [`<img src='./images/X.png' > </  img>`, `<img src='./images/O.png' > </  img>`]
     const letter = ['x', 'o']
     let wins = [0, 0]
     let imageIndex = 0;
