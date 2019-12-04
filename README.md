@@ -1,12 +1,12 @@
 <!-- md -> markdown -->
 <!-- Github markdown -->
 
-#Tic Tac Toe
+# Tic Tac Toe
 The famous, exciting and amazing Tic Tac Toe is now on a webpage for you and a friend to battle over the title of the "King of TTT".
 
 
 <!-- Tech list -->
-##Techonology Stack
+## Techonology Stack
 * HTML5
 * CSS3
 * JAVASCRIPT
